@@ -6,7 +6,7 @@ flex-direction: column;
 padding: 0 20px;
 border: 2px solid black;
 border-radius: 10px;
-background-color: green;
+background-color: silver;
   box-shadow: 10px 5px 5px black;
   margin-bottom: 50px;
 `;
@@ -16,7 +16,7 @@ margin-top:10px;
   font-weight: 400;
   font-size: 40px;
   line-height: 1.25;
-  color: orange;
+  color: black;
 `;
 
 export const Input = styled.input`
@@ -29,6 +29,7 @@ export const Input = styled.input`
   padding: 10px;
    box-shadow: 10px 5px 5px black;
    margin-bottom: 20px;
+background-color: white;
 `;
 
 export const Button = styled.button`
@@ -40,7 +41,7 @@ export const Button = styled.button`
   font-weight: 400;
   font-size: 20px;
   line-height: 1.25;
-  background-color: orange;
+  background-color: teal;
   border:none;
   border-radius: 10px;
   cursor: pointer;
@@ -57,6 +58,6 @@ padding: 80px 50px;
 border-radius: 10px;
 box-shadow: 10px 5px 5px black;
 `
-export const List = styled.ul`
+export const List = styled.li`
 list-style: none;
 text-align: center;`
